@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <title>Dashboard Employe</title>
+</head>
+<body>
+    
+    <!-- SIDEBAR -->
+    <section class="dash__sidebar">
+        <a href="#" class="dash__brand"><i class='bx bxs-smile icon'></i> Employe</a>
+        <ul class="dash__side-menu">
+            <li><a href="#" class="active"><i class='bx bxs-dashboard icon'></i> Dashboard</a></li>
+            <li class="dash__divider">Main</li>
+            <!-- <li>
+                <a href="#"><i class='bx bxs-inbox icon' ></i> Elements <i class='bx bx-chevron-right icon-right'></i></a>
+                <ul class="dash__side-dropdown">
+                    <li><a href="#">Alert</a></li>
+                    <li><a href="#">Badges</a></li>
+                    <li><a href="#">Breadccrumbs</a></li>
+                    <li><a href="#">Button</a></li>
+                </ul>
+            </li> -->
+            <li><a href="#"><i class='bx bxs-chart icon' ></i> Charts</a></li>
+            <li><a href="#"><i class='bx bxs-widget icon' ></i> Widget</a></li>
+            <li class="dash__divider">Table and forms</li>
+            <li><a href="#"><i class='bx bx-table icon' ></i> Tables</a></li>
+            <!-- <li>
+                <a href="#"><i class='bx bxs-inbox icon' ></i> Form <i class='bx bx-chevron-right icon-right'></i></a>
+                <ul class="dash__side-dropdown">
+                    <li><a href="#">Alert</a></li>
+                    <li><a href="#">Badges</a></li>
+                    <li><a href="#">Breadccrumbs</a></li>
+                    <li><a href="#">Button</a></li>
+                </ul>
+            </li> -->
+        </ul>
+        <!-- <div class="dash__ads">
+            <div class="dash__wrapper">
+                <a href="#" class="btn-upgrade">Upgrade</a>
+                <p>Become a <span>PRO</span> member and enjoy <span>All Features</span></p>
+            </div>
+        </div> -->
+    </section>
+    <!-- SIDEBAR -->
+
+    <!-- NAVBAR -->
+    <div class="dash__content">
+        <nav>
+            <i class='bx bxs-menu toggle-sidebar'></i>
+            <form action="#">
+                <div class="form-group">
+                    <input type="text" placeholder="Search...">
+                    <i class='bx bxs-search icon'></i>
+                </div>
+            </form>
+            <a href="#" class="nav-link">
+                <i class='bx bxs-bell'></i>
+                <span class="badge">8</span>
+            </a>
+
+            <a href="#" class="nav-link">
+                <i class='bx bxs-message-dots'></i>
+                <span class="badge">6</span>
+            </a>
+            <span class="dash__divider"></span>
+            <div class="dash__profile">
+                <img src="images/people.jpg" alt="">
+                <ul class="dash__profile-link">
+                    <li><a href="#"><i class='bx bxs-user-circle icon'></i> Profile</a></li>
+                    <li><a href="#"><i class='bx bxs-cog icon'></i> Setting</a></li>
+                    <li><a href="#"><i class='bx bxs-log-out-circle icon' ></i> Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <h1 class="title">Dashboard</h1>
+            <ul class="breadcrumbs">
+                <li><a href="#">Home</a></li>
+                <li class="divider">/</li>
+                <li><a href="#" class="active">Dashboard</a></li>
+            </ul>
+            <div class="info-data">
+
+                <div class="card">
+                    <img src="images/people.jpg" alt="">
+                    <div class="content">
+                        <h2>Societé</h2>
+                        <h3>Domaine</h3>
+                        <p>us hic, earum alias perferendis eveniet ullam possimus aspernatur temporibus quod eos praesentium.</p>
+                        <a href="#" class="btn">Lire plus</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/people.jpg" alt="">
+                    <div class="content">
+                        <h2>Societé</h2>
+                        <h3>Domaine</h3>
+                        <p>us hic, earum alias perferendis eveniet ullam possimus aspernatur temporibus quod eos praesentium.</p>
+                        <a href="#" class="btn">Lire plus</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/people.jpg" alt="">
+                    <div class="content">
+                        <h2>Societé</h2>
+                        <h3>Domaine</h3>
+                        <p>us hic, earum alias perferendis eveniet ullam possimus aspernatur temporibus quod eos praesentium.</p>
+                        <a href="#" class="btn">Lire plus</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/people.jpg" alt="">
+                    <div class="content">
+                        <h2>Societé</h2>
+                        <h3>Domaine</h3>
+                        <p>us hic, earum alias perferendis eveniet ullam possimus aspernatur temporibus quod eos praesentium.</p>
+                        <a href="#" class="btn">Lire plus</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+        </main>
+    </div>
+    <!-- NAVBAR -->
+
+    <script src="script.js"></script>
+</body>
+</html>
